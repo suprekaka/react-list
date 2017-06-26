@@ -1,0 +1,15 @@
+.ow-list {
+  .ow-list-container {
+    overflow: auto;
+  }
+
+  .ow-list-wrapper {
+    position: relative;
+  }
+
+  .ow-list-item-wrapper {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+  }
+}

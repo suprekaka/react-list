@@ -1,0 +1,23 @@
+.ow-selectable-wrapper {
+  height: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+
+  .ow-selectable-checkbox-container {
+    flex-shrink: 0;
+  }
+
+  .ow-selectable-item-wrapper {
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ow-selectable-defaultCheckbox-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 100%;
+  }
+}
